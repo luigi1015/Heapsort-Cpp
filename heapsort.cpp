@@ -1,6 +1,9 @@
+#ifndef Heapsort_CPP
+#define Heapsort_CPP
+
 #include <vector>
 
-namespace heapsort
+namespace Heapsort
 {
 	template <class T> struct heap
 	{//A data structure to hold a very basic heap.
@@ -88,3 +91,5 @@ namespace heapsort
 		}
 	}
 }
+
+#endif /* Heapsort_CPP */

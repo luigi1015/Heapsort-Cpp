@@ -23,7 +23,7 @@ int main( int argc, const char* argv[] )
 	A.push_back(3);
 	*/
 	
-	heapsort::heap<int> A;
+	Heapsort::heap<int> A;
 	A.items.push_back(5);
 	A.items.push_back(2);
 	A.items.push_back(4);
@@ -37,7 +37,7 @@ int main( int argc, const char* argv[] )
 	printVector<int>(A.items);
 	std::cout << std::endl;
 	
-	heapsort::heapsort<int>(A);
+	Heapsort::heapsort<int>(A);
 	
 	std::cout << "After sort:" << std::endl;
 	printVector<int>(A.items);
