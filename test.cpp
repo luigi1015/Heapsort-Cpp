@@ -1,5 +1,5 @@
 #include <vector>
-#include "heapsort.cpp"
+#include "Heapsort.cpp"
 #include <iostream>
 
 template <class T> void printVector( std::vector<T> items )

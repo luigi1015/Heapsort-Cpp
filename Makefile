@@ -1,10 +1,10 @@
-all: Test heapsort.o
+all: Test Heapsort.o
 
-heapsort.o: heapsort.cpp
-	g++ -Wall -c heapsort.cpp
+Heapsort.o: Heapsort.cpp
+	g++ -Wall -c Heapsort.cpp
 
-Test: heapsort.cpp test.cpp
-	g++ -Wall -o Test test.cpp
+Test: Heapsort.cpp HeapsortTest.cpp
+	g++ -Wall -o Test HeapsortTest.cpp -lcppunit
 
 clean:
 	rm Test *.o *~
